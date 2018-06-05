@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/fonts2/iconfont.css">
+    <link rel="stylesheet" href="./style/swiper-4.2.2.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "wrap">
+        <header class = "header">
+            <i class="icon iconfont icon-chevron-thin-left"></i>
+            <a href="#">多加网</a>
+            <a href="#"></a>
+        </header>
+        <nav class = "nav">
+            <img src="./img/首页-logo@2x.png" class = "img1">
+            <img src="./img/搜索icon@2x.png" class = "img2">
+            <input type="text" placeholder = "搜索项目或医院">
+            <b>分类 v</b>
+        </nav>
+        <div class = "swiper-container">
+            <div class = "swiper-wrapper">
+                <div class = "swiper-slide"><img src="./img/banner@2x.png"></div>
+                <div class = "swiper-slide"><img src="./img/banner@2x.png"></div>
+                <div class = "swiper-slide"><img src="./img/banner@2x.png"></div>
+            </div>
+            <div class = "swiper-button-prev"></div>
+            <div class = "swiper-button-next"></div>
+        </div>
+        <div class = "middle">
+              <ul class = "list">
+                  <li>
+                      <img src="./img/1.png">
+                      <h6>成单奖励</h6>
+                  </li>
+                  <li>
+                    <img src="./img/2.png">
+                    <h6>推荐新人</h6>
+                </li>
+                <li>
+                    <img src="./img/3.png">
+                    <h6>收益滚利</h6>
+                </li>
+                <li>
+                    <img src="./img/4.png">
+                    <h6>阶梯奖励</h6>
+                </li>
+                <li>
+                    <img src="./img/5.png">
+                    <h6>异业拓客</h6>
+                </li>
+                <li>
+                    <img src="./img/6.png">
+                    <h6>集采返现</h6>
+                </li>
+                <li>
+                    <img src="./img/7.png">
+                    <h6>新品悬赏</h6>
+                </li>
+                <li>
+                    <img src="./img/8.png">
+                    <h6 class = "zi">敬请期待</h6>
+                </li>
+              </ul>
+        </div>
+        <div class = "bottom">
+            <h1></h1>
+            <h2>金牌商家</h2>
+        </div>
+        <div class = "box1">
+            <img src="./img/pic1.png">
+            <p class = "p1">悦美国际</p>
+            <img src="./img/pic2.png">
+            <p class = "p2">美人魅力</p>
+        </div>
+        <footer>
+            <ol>
+                <li>
+                    <img src="./img/首页@2x.png">
+                    <h3>首页</h3>
+                </li>
+                <li>
+                    <img src="./img/我的@2x.png">
+                    <h3>我的</h3>
+                </li>
+            </ol>
+        </footer>
+        
+    </div>
+    <script src = "./scripts/swiper-4.2.2.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container',{
+            autoplay:true,
+            loop:true,
+            navigation:{
+            prevEl:'.swiper-button-prev',
+            nextEl:'.swiper-button-next'
+        }
+        }
+        )
+    </script>
+</body>
+</html>
